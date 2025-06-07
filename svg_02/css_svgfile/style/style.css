@@ -1,0 +1,18 @@
+/* SVGファイル呼び出し */
+.inu_svgfile{
+  background-image: url('../image/inu.svg');
+}
+
+/* 実寸で表示 */
+.default_size{
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+}
+
+/* 設定領域にタイル状にリピート表示 */
+.repeat_area{
+  height: 200px;
+  width: 300px;
+}
